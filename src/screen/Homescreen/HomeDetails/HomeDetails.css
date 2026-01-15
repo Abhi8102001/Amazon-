@@ -1,0 +1,95 @@
+.HomeDetails{
+    width:100%;
+    margin-top:-95px;
+    padding-top:60px;
+    background-color:rgb(238,235,235);
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    position:relative;
+    z-index:2;
+}
+
+.HomeDetaillongcard{
+    background:white;
+    padding:15px;
+}
+
+.HomeDetaillongcardtitle{
+    font-size:21px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+/* ===== SLIDER ===== */
+.sliderWrapper{
+    position:relative;
+}
+
+.scrolldiv{
+    display:flex;
+    gap:16px;
+    overflow-x:auto;
+    scroll-behavior:smooth;
+    scroll-snap-type:x mandatory;
+    padding-bottom:10px;
+    scrollbar-width: thin;
+    scrollbar-color:#999 #e6e6e6;
+}
+
+.scrolldiv::-webkit-scrollbar{
+    height:6px;
+}
+.scrolldiv::-webkit-scrollbar-track{
+    background: #e6e6e6;
+    border-radius: 10px;
+}
+.scrolldiv::-webkit-scrollbar-thumb{
+    background: #999;
+    border-radius: 10px;
+}
+.scrolldiv::-webkit-scrollbar-thumb:hover{
+    background: #666;
+}
+.HomeDetaillongcarditem{
+    flex-shrink:0;
+    width:clac(100%/4-12px);
+    height:220px;
+    background:#f7f7f7;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    scroll-snap-align:start;
+}
+
+.HomeDetaillongcarditemimg{
+    max-width:100%;
+    max-height:100%;
+    object-fit:contain;
+}
+
+/* ===== ARROWS ===== */
+.navBtn{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width:40px;
+    height:80px;
+    background:white;
+    border:1px solid #ddd;
+    font-size:28px;
+    cursor:pointer;
+    z-index:5;
+}
+
+.navBtn.left{
+    left:0;
+}
+
+.navBtn.right{
+    right:0;
+}
+
+.navBtn:hover{
+    background:#f1f1f1;
+}

@@ -1,0 +1,147 @@
+.footer {
+  background-color:black;
+  color: white;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TOP FOOTER */
+.footercontent {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+.footercont1 a {
+  display: block;
+}
+
+/* TITLES — WHITE FIX */
+.contentfootertitle {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contentfootertitle:hover {
+  color: #ffffff;
+}
+
+/* SUB TITLES */
+.contentfootersubtitlediv {
+  font-size: 14px;
+}
+
+.contentfootersubtitlecontent {
+  margin-bottom: 10px;
+  color: #ddd;
+  text-decoration: none;
+}
+
+.contentfootersubtitlecontent:hover {
+  text-decoration: underline;
+}
+
+/* AMAZON BAR */
+.amazonBar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.amazonimgfooter {
+  width: 110px;
+}
+
+.amazonBarOptions {
+  display: flex;
+  gap: 10px;
+}
+
+.footerOption {
+  border: 1px solid #848688;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.footerOption img {
+  width: 18px;
+  height: 12px;
+  margin-right: 6px;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+/* BOTTOM LINKS */
+.footerBottomLinks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.footerBottomLinks span {
+  cursor: pointer;
+}
+
+.footerBottomLinks span:hover {
+  text-decoration: underline;
+}
+
+/* LEGAL */
+.footerBottomLegal span {
+  margin: 0 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.footerBottomLegal span:hover {
+  text-decoration: underline;
+}
+
+.footerCopyright {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footerCopyright:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+/* ===== FOOTER LINKS : HOVER UNDERLINE ===== */
+
+/* NORMAL STATE */
+.footer .contentfootertitle,
+.footer .contentfootersubtitlecontent {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+/* HOVER STATE */
+.footer .contentfootertitle:hover,
+.footer .contentfootersubtitlecontent:hover {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+  text-decoration-color: #ffffff !important;
+}
+/* COPYRIGHT TEXT WHITE + HOVER UNDERLINE */
+.footer .footerCopyright {
+  color: #ffffff !important;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer .footerCopyright:hover {
+  text-decoration: underline !important;
+  color: #ffffff !important;
+}

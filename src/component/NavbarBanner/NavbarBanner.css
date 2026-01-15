@@ -1,0 +1,41 @@
+.navbarbanner {
+    background-color: #0f1111;
+    padding: 0 0 0 11px;
+    display: flex;
+    height: 39px;
+    justify-content: space-between;
+    color: white;
+}
+
+.navbarbanneroptionsleft {
+    display: flex;
+}
+
+/* common navbar option */
+.optionsnavbarbanner {
+    display: flex;
+    padding: 8px 9px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* hover border */
+.optionsnavbarbanner:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+/* text style */
+.alloptionsnavbarbanner {
+    font-size: 14px;
+    padding-left: 2px;
+    font-weight: 400;
+    color: white;
+}
+
+.navbarbannerrightside {
+    margin-right: 10px;
+}
