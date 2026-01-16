@@ -1,5 +1,10 @@
 import react from 'react';
 import './Homebanner.css'
+const bannerimages = [
+    "https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Dhananjaya/Category-Hero_Asin-PC_Day-1-onwards_WM_2x._CB773498629_.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/img24/Wireless/debaishx/Mipoco/Category-Hero_Asin-PC_3000x1200_Day-0._CB773501130_.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/rabhinak/wd/gw/pc/GW_Hero_Pc__Budget_Unrec._CB773498819_.jpg"
+];
 const Homebanner = () => {
     return(
         <div className="Homebanner">
